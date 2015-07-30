@@ -10,6 +10,8 @@
  */
 
 require_once('E:\wamp\www\PourTest\func_dossier\func_lire_dossier.php');
+
 $objD = dir('E:\wamp\www\PourTest\func_dossier');
+
 readRepertoire();
 ?>
