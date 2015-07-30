@@ -7,4 +7,5 @@
  *
  ********************************
  * pour démonstation : la commande dir() de PHP
- * référence : manuel PHP
+ * référence : manuel PHP www.php.net/en/index.php
+ *************************************************
