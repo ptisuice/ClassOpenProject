@@ -1,9 +1,16 @@
 <?php
+/**
+ * @fichier index.php
+ * @author : ptisuice@gmail.com
+ *******************************
+ * lit un dossier
+ * read a repertorie
+ */
 
-$d = dir("E:\wamp\WWW\PourTest");
+$objD = dir("E:\wamp\WWW\PourTest");
 
-while (false !== ($entry = $d->read())) {
-   echo $entry."<br>";
+while (false !== ($strEntry = $objD->read())) {
+   echo $strEntry."<br>";
    }
-$d->close();
+$objD->close();
 ?>
