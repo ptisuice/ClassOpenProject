@@ -1,11 +1,11 @@
 <?php
-/**
+/*******************************************
  * @file : f_readRepertorie.php
  *
  * lit un répertoire - read Repertorie
  *
  * @param global $objD command dir() result 
- */
+ *******************************************/
 
 function readRepertoire()
 {

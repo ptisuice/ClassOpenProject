@@ -1,16 +1,14 @@
 <?php
 /**
  * @file index.php
+ *
  * @author : ptisuice@gmail.com
  *******************************
  * lit un dossier
  * read a repertorie
  */
 
-$objD = dir("E:\wamp\WWW\PourTest");
-
-while (false !== ($strEntry = $objD->read())) {
-   echo $strEntry."<br>";
-   }
-$objD->close();
+require_once('E:\wamp\www\PourTest\func_dossier\func_lire_dossier.php');
+$objD = dir('E:\wamp\www\PourTest\func_dossier');
+readRepertoire();
 ?>
