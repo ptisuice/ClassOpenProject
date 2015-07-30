@@ -1,6 +1,6 @@
 <?php
 /**
- * @fichier index.php
+ * @file index.php
  * @author : ptisuice@gmail.com
  *******************************
  * lit un dossier
